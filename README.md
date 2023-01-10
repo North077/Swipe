@@ -1,6 +1,6 @@
 # Swipe
 Introducing a powerful and intuitive JavaScript library that allows you to effortlessly add a swipe listener to your web game or application. This library is well suited for casual games but it can also be used in many different types of applications. The API is designed to be as easy as possible to integrate into your web application.
-## How to use
+## Usage
 ```javascript
 // import swipe 
 import { Swipe } from './Swipe.js';
@@ -23,5 +23,5 @@ window._SWIPE_DIAGONALS_ENABLED_
 ```
 Adjust this property to tune the sensitivity of the swipes
 ```javascript
-window._SWIPE_THRESHOLD_
+window._SWIPE_THRESHOLD_ //recommended to be a positive integer which is greater than 10 and smaller than 30.
 ```
