@@ -16,3 +16,12 @@ const swipe = new Swipe((data) => {
 swipe.listen();
 ```
 
+## Properties 
+Turn this property on or off to listen or not listen for diagonal events.
+```javascript
+window._SWIPE_DIAGONALS_ENABLED_
+```
+Adjust this property to tune the sensitivity of the swipes
+```javascript
+window._SWIPE_THRESHOLD_
+```
