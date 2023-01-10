@@ -7,7 +7,8 @@ import { Swipe } from './Swipe.js';
 
 // create a new swipe listener 
 const swipe = new Swipe((data) => {
-  // data is a object with three properties, strength, angle and direction. irection can be (u, d, l, r, ul, dl, ur, dr)
+  // data is a object with three properties, strength, angle and direction. 
+  // direction can be (u, d, l, r, ul, dl, ur, dr)
   console.log(data);
 
 });
