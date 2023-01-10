@@ -156,7 +156,7 @@ class Swipe {
 
       
 
-        window._SWIPE_DATA_.direction = 'l';
+        window._SWIPE_DATA_.direction = 'r';
 
         window._SWIPE_CALLBACK(window._SWIPE_DATA_);
 
@@ -180,7 +180,7 @@ class Swipe {
 
       
 
-        window._SWIPE_DATA_.direction = 'r';
+        window._SWIPE_DATA_.direction = 'l';
 
         window._SWIPE_CALLBACK(window._SWIPE_DATA_);
 
@@ -202,7 +202,7 @@ class Swipe {
 
       
 
-        window._SWIPE_DATA_.direction = 'ul';
+        window._SWIPE_DATA_.direction = 'ur';
 
         window._SWIPE_CALLBACK(window._SWIPE_DATA_);
 
@@ -214,7 +214,7 @@ class Swipe {
 
       
 
-        window._SWIPE_DATA_.direction = 'dl';
+        window._SWIPE_DATA_.direction = 'dr';
 
         window._SWIPE_CALLBACK(window._SWIPE_DATA_);
 
@@ -226,7 +226,7 @@ class Swipe {
 
       
 
-        window._SWIPE_DATA_.direction = 'dr';
+        window._SWIPE_DATA_.direction = 'dl';
 
         window._SWIPE_CALLBACK(window._SWIPE_DATA_);
 
@@ -238,7 +238,7 @@ class Swipe {
 
       
 
-        window._SWIPE_DATA_.direction = 'ur';
+        window._SWIPE_DATA_.direction = 'ul';
 
         window._SWIPE_CALLBACK(window._SWIPE_DATA_);
 
